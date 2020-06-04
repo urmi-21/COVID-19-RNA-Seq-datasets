@@ -1,5 +1,6 @@
 # Introduction
-This a repository for sharing information on available COVID-19 RNA-Seq datasets. To contribute to this repository please see [contribution guide]().
+This is a repository for sharing information on available COVID-19 RNA-Seq datasets. I will update this weekly to add any newly released COVID-19 related RNA-Seq datasets.
+Please feel free to contribute to this repository (see [contribution guide](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/blob/master/CONTRIBUTING.md)). If you have suggestions, please notify me by opeining a new [issue](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/issues).
 
 
 ## COVID-19-RNA-Seq-datasets
