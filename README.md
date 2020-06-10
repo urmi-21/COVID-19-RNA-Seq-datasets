@@ -22,3 +22,4 @@ Please feel free to contribute to this repository (see [contribution guide](http
 ## Other Useful Resources
 * [BROAD Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/covid19) contains studies which have been identified by the study owners as relevant to COVID-19 
 * [10x Genomics Critical Tools for Coronavirus (COVID-19) Research](https://pages.10xgenomics.com/3p-immunology-coronavirus-tools.html)
+* [10x Genomics publications and preprints that showcase the latest research on COVID-19](https://pages.10xgenomics.com/3p-immunology-coronavirus-additional-publications.html)
