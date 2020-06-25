@@ -6,10 +6,14 @@ python scripts/parse.py
 import yaml
 import glob
 import os
+import sys
 
 datasets=[]
 resources=[]
-
+#add headers
+datasets.append('|'.join(['Date','Title','Description','Download','#Samples','#COVID','Type'])+'\n'+'|'.join(['---','---','---','---','---','---','---']))
+resources.append('|'.join(['Resource','Description']))
+resources.append('|'.join(['---','---']))
 
 #get a list of all yaml files in data
 def get_files(directory,suffix):
@@ -18,21 +22,58 @@ def get_files(directory,suffix):
     result=glob.glob(path)
     return result
 
+#def validate_keys(d,k):
+#    '''
+#    check d contains all k keys
+#    '''
+    
+
+
 def parse_yml(filepath):
     all_dict=yaml.safe_load(open(filepath))
 
-    for key, value in all_dict.items():
+    for key, d in all_dict.items():
         #print (key,":", value)
         #decide if entry is rna-seq or resource
-        if len(value) >3 :
+        if len(d) >3 :
             #this is RNA-Seq data
-            print('study:',key)
-            datasets.append(value)
+            #print('study:',key)
+            #validate keys
+            try:
+                title=d['title']
+                link=d['link']
+                desc=d['description']
+                date=d['date']
+                typeseq=d['type']
+                geoacc=d['geo']['accession']
+                geolink=d['geo']['link']
+                sraacc=d['sra']['accession']
+                sralink=d['sra']['link']
+                otheracc=d['other']['accession']
+                otherlink=d['other']['link']
+                total=d['samples']['total']
+                covid=d['samples']['covid']
+                title=mdlink(title,link)
+                download='/'.join([mdlink(geoacc,geolink),mdlink(sraacc,sralink),mdlink(otheracc,otherlink)])
+                result='|'.join([str(date),title,desc,download,str(total),str(covid),typeseq])    
+                datasets.append(result)
+                #return result
+            except:
+                print('1 Error parsing:'+filepath+' key:'+key)
+                sys.exit(1)
+            #datasets.append(value)
             
         else:
             #this is resource
-            print('res:',key)
-            resources.append(value)
+            try:
+                title=d['title']
+                link=d['link']
+                desc=d['description']
+                result='|'.join([mdlink(title,link),desc])                
+                resources.append(result)
+            except:
+                print('2 Error parsing:'+filepath+' key:'+key)
+                sys.exit(1)
 
 def mdlink(text,link):
     if text==None:
@@ -100,18 +141,30 @@ for f in yml_files:
 
 #after parsing and creating 'datasets' and 'resources' dict, make README file
 
-#print(datasets)
-#print(resources)
+#print('\n'.join(datasets))
+#print('\n'.join(resources))
 
 
 #convert to tab
-data_table=datasets_to_tab(datasets)
-resources_table=resources_to_tab(resources)
+#data_table=datasets_to_tab(datasets)
+#resources_table=resources_to_tab(resources)
+
 #write to file
-with open('README.md','r') as f:
+print('writing to file')
+data_table='\n'.join(datasets)
+resources_table='\n'.join(resources)
+target='README.md'
+sep='######%%%#####'
+#get content before tables e.g. introduction section
+with open(target,'r') as f:
     content=f.read().splitlines()
 content='\n'.join(content).split('######%%%#####')[0]
-#print(content)
-f=open('RM2.md','w')
-f.write('\n\n'.join([content,'## COVID-19-RNA-Seq-datasets',data_table,'\n\n## COVID-19-RNA-Seq Resources',resources_table]))
+print(content)
+
+#write newly parsed tables along with  content
+f=open(target,'w')
+f.write('\n\n'.join([content+'\n'+sep,'## COVID-19-RNA-Seq-datasets',data_table,'\n\n## COVID-19-RNA-Seq Resources',resources_table]))
 print('Done!')
+
+
+
