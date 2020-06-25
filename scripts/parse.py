@@ -113,7 +113,7 @@ sep='## ##'
 #get content before tables e.g. introduction section
 with open(target,'r') as f:
     content=f.read().splitlines()
-content='\n'.join(content).split('######%%%#####')[0]
+content='\n'.join(content).split(sep)[0]
 #print(content)
 
 #write newly parsed tables along with  content
