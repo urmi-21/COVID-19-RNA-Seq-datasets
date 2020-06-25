@@ -109,7 +109,7 @@ print('writing to file')
 data_table='\n'.join(datasets)
 resources_table='\n'.join(resources)
 target='README.md'
-sep='######%%%#####'
+sep='## ##'
 #get content before tables e.g. introduction section
 with open(target,'r') as f:
     content=f.read().splitlines()
