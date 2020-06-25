@@ -42,8 +42,9 @@ def mdlink(text,link):
     return '['+str(text)+']'+'('+str(link)+')'
 
 def dictionary_to_md_row(d):
-    #print (d)
-    #print("XXXXXXXXX")
+    #if none return header
+    if not d:
+        return '|'.join(['Date','Title','Description','Download','#Samples','#COVID','Type'])+'\n'+'|'.join(['---','---','---','---','---','---','---'])
     #parse
     title=d['title']
     link=d['link']
@@ -68,15 +69,25 @@ def dictionary_to_md_row(d):
 
 
 def datasets_to_tab(datalist):
+    header=dictionary_to_md_row(None)
+    rows=[]
+    rows.append(header)
     for d in datalist:
-        #print (d)
-        #print("XXXXXXXXX")
-        #parse
-        print(dictionary_to_md_row(d)) 
+        rows.append(dictionary_to_md_row(d))
 
-
+    return('\n'.join(rows))
          
-#def resources_to_tab(d):
+def resources_to_tab(rlist):
+    rows=[]
+    rows.append('|'.join(['Resource','Description']))
+    rows.append('|'.join(['---','---']))
+    for d in rlist:
+        title=d['title']
+        link=d['link']
+        desc=d['description']
+        rows.append('|'.join([mdlink(title,link),desc]))
+    return('\n'.join(rows))
+        
 
 data_dict={}
 resource_dict={}
@@ -89,12 +100,18 @@ for f in yml_files:
 
 #after parsing and creating 'datasets' and 'resources' dict, make README file
 
-print(datasets)
-print("SDSASD")
-print(resources)
+#print(datasets)
+#print(resources)
 
 
 #convert to tab
-datasets_to_tab(datasets)
-
-
+data_table=datasets_to_tab(datasets)
+resources_table=resources_to_tab(resources)
+#write to file
+with open('README.md','r') as f:
+    content=f.read().splitlines()
+content='\n'.join(content).split('######%%%#####')[0]
+#print(content)
+f=open('RM2.md','w')
+f.write('\n\n'.join([content,'## COVID-19-RNA-Seq-datasets',data_table,'\n\n## COVID-19-RNA-Seq Resources',resources_table]))
+print('Done!')

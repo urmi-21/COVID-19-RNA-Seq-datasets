@@ -25,10 +25,6 @@ study_1:
     covid: 24
   
 
-study_2: 
-  title: XXXXX
-  GEO: xx
-  SRA: YY
 
 study_3: 
   title: TEST
@@ -50,6 +46,10 @@ study_3:
     covid: 24
 
 
+study_2: 
+  title: XXXXX
+  link: xx
+  description: YY
 resource_1:
   title: BROAD Single Cell Portal
   description: BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
