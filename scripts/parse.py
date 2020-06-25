@@ -1,6 +1,9 @@
 '''
+Parse yml files to markdown
 Execute this script from root
 python scripts/parse.py
+
+Urmi
 '''
 
 import yaml
@@ -82,56 +85,8 @@ def mdlink(text,link):
         link=""
     return '['+str(text)+']'+'('+str(link)+')'
 
-def dictionary_to_md_row(d):
-    #if none return header
-    if not d:
-        return '|'.join(['Date','Title','Description','Download','#Samples','#COVID','Type'])+'\n'+'|'.join(['---','---','---','---','---','---','---'])
-    #parse
-    title=d['title']
-    link=d['link']
-    desc=d['description']
-    date=d['date']
-    typeseq=d['type']
-    geoacc=d['geo']['accession']
-    geolink=d['geo']['link']
-    sraacc=d['sra']['accession']
-    sralink=d['sra']['link']
-    otheracc=d['other']['accession']
-    otherlink=d['other']['link']
-    total=d['samples']['total']
-    covid=d['samples']['covid']
-
-    title=mdlink(title,link)
-    download='/'.join([mdlink(geoacc,geolink),mdlink(sraacc,sralink),mdlink(otheracc,otherlink)])
-    
-    result='|'.join([str(date),title,desc,download,str(total),str(covid),typeseq])    
-    return result
-
-
-
-def datasets_to_tab(datalist):
-    header=dictionary_to_md_row(None)
-    rows=[]
-    rows.append(header)
-    for d in datalist:
-        rows.append(dictionary_to_md_row(d))
-
-    return('\n'.join(rows))
-         
-def resources_to_tab(rlist):
-    rows=[]
-    rows.append('|'.join(['Resource','Description']))
-    rows.append('|'.join(['---','---']))
-    for d in rlist:
-        title=d['title']
-        link=d['link']
-        desc=d['description']
-        rows.append('|'.join([mdlink(title,link),desc]))
-    return('\n'.join(rows))
         
 
-data_dict={}
-resource_dict={}
 
 yml_files=get_files('data','yaml')
 for f in yml_files:
@@ -159,7 +114,7 @@ sep='######%%%#####'
 with open(target,'r') as f:
     content=f.read().splitlines()
 content='\n'.join(content).split('######%%%#####')[0]
-print(content)
+#print(content)
 
 #write newly parsed tables along with  content
 f=open(target,'w')
