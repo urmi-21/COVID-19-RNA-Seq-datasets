@@ -9,7 +9,7 @@ Please follow these guidelines:
 * All the data is entered through yaml files.
 1. Clone this repository `git clone https://github.com/urmi-21/COVID-19-RNA-Seq-datasets.git`
 2. Create a new yaml file under the `data` directory, name it after your user id. You may also choose to edit an existing yaml file.
-3. Use the yaml format template to enter RNA-Seq dataset or resource information.
+3. Use the yaml format template to enter RNA-Seq dataset or resource information. For help take a look at existing yaml files.
 4. Push the changes to your repo and send a pull request. 
 5. Changes will be automatically reflected upon merging the pull request.
 
