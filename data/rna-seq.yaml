@@ -214,6 +214,25 @@ study_11:
     total: 484
     covid: 430
 
+study_12: 
+  title: Neuroinvasive potential of SARS-CoV-2 revealedin a human brain organoid model
+  link: https://www.biorxiv.org/content/10.1101/2020.06.25.169946v1
+  description: Brain organoids were infected with SARS-CoV-2 and sequenced with 10x single cell sequencing strategies.
+  date: 2020-06-26
+  type: single-cell
+  geo:
+    accession: NA
+    link: 
+  sra:
+    accession: **Data not public**
+    link: 
+  other:
+    accession:
+    link:
+  samples:
+    total: 
+    covid: 
+
 resource_1:
   title: BROAD Single Cell Portal
   description: BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
