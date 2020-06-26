@@ -47,9 +47,9 @@ study_3:
 
 
 study_2: 
-  title: XXXXX
-  link: xx
-  description: YY
+  title: study
+  link: link
+  description: desc
 
 resource_1:
   title: BROAD Single Cell Portal
