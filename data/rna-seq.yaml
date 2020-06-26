@@ -194,6 +194,25 @@ study_10:
   samples:
     total: 154
     covid: 56
+    
+study_11: 
+  title: In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age
+  link: https://www.biorxiv.org/content/10.1101/2020.06.22.165225v1
+  description: Examined host gene expression across infection status, viral load, age, and sex among RNA-sequencing profiles of nasopharyngeal swabs from 430 individuals with SARS-CoV-2 and 54 negative controls.
+  date: 2020-06-22
+  type: bulk
+  geo:
+    accession: GSE152075
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152075
+  sra:
+    accession: 
+    link: 
+  other:
+    accession:
+    link:
+  samples:
+    total: 484
+    covid: 430
 
 resource_1:
   title: BROAD Single Cell Portal
