@@ -6,6 +6,7 @@ Please feel free to contribute to this repository (see [contribution guide](http
 
 
 
+
 ## ##
 
 ## COVID-19-RNA-Seq-datasets
@@ -21,5 +22,5 @@ Date|Title|Description|Download|#Samples|#COVID|Type
 
 Resource|Description
 ---|---
-[XXXXX](xx)|YY
+[study](link)|desc
 [BROAD Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/covid19)|BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
