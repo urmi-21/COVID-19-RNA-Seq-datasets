@@ -34,7 +34,7 @@ jobs:
 
         # The name of the user that will be displayed as the author of the commit
         # Default: author of the commit that triggered the run
-        author_name: bot
+        author_name: COVID-BOT
 
         # The email of the user that will be displayed as the author of the commit
         # Default: author of the commit that triggered the run
@@ -50,7 +50,7 @@ jobs:
 
         # The message for the commit
         # Default: 'Commit from GitHub Actions'
-        message: 'Auto'
+        message: 'Commit from GitHub Actions'
         
         # Name of the branch to use, if different from the one that triggered the workflow
         # Default: the branch that triggered the workflow (from GITHUB_REF)
