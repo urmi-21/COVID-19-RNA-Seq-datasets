@@ -25,12 +25,6 @@ def get_files(directory,suffix):
     result=glob.glob(path)
     return result
 
-#def validate_keys(d,k):
-#    '''
-#    check d contains all k keys
-#    '''
-    
-
 
 def parse_yml(filepath):
     all_dict=yaml.safe_load(open(filepath))
@@ -108,7 +102,7 @@ for f in yml_files:
 print('writing to file')
 data_table='\n'.join(datasets)
 resources_table='\n'.join(resources)
-target='README.md'
+target='README2.md'
 sep='## ##'
 #get content before tables e.g. introduction section
 with open(target,'r') as f:
