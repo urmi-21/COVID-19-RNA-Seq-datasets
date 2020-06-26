@@ -194,3 +194,8 @@ study_10:
   samples:
     total: 154
     covid: 56
+
+resource_1:
+  title: BROAD Single Cell Portal
+  description: BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
+  link: https://singlecell.broadinstitute.org/single_cell/covid19

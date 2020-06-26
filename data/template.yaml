@@ -18,6 +18,9 @@ study_1:
   sra: <information regarding SRA>
     accession: <SRA accession>
     link: <link to SRA page>
+  other: <access outside GEO and SRA>
+    accession: <Accession e.g. GSA>
+    link: <link to data>
   samples: <information about the samples>
     total: <total samples>
     covid: <total covid-infected samples>
