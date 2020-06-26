@@ -224,7 +224,7 @@ study_12:
     accession: NA
     link: 
   sra:
-    accession: **Data not public**
+    accession: "**Data not public**"
     link: 
   other:
     accession:
