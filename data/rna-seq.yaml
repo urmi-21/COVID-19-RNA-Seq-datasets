@@ -1,0 +1,57 @@
+---
+# Use this file to enter the RNA-Seq datasets.
+# This file will be automatically parsed and create the README file
+# Use the following template to enter your data:
+#
+#Please increment the suffix by onethe key
+
+study_1: 
+  title: Imbalanced Host Response to SARS-CoV-2 Drives Development of COVID-19
+  link: https://www.sciencedirect.com/science/article/pii/S009286742030489X
+  description: Single end reads
+  date: 2020-05-28
+  type: bulk
+  geo:
+    accession: GSE147507
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147507
+  sra:
+    accession: SRP253951
+    link: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP253951
+  other:
+    accession:
+    link:
+  samples:
+    total: 195
+    covid: 24
+  
+
+
+study_3: 
+  title: TEST
+  link: https://www.sciencedirect.com/science/article/pii/S009286742030489X
+  description: Single end reads
+  date: 2020-05-28
+  type: bulk
+  geo:
+    accession: GSE147507
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147507
+  sra:
+    accession: SRP253951
+    link: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP253951
+  other:
+    accession:
+    link:
+  samples:
+    total: 195
+    covid: 24
+
+
+study_2: 
+  title: XXXXX
+  link: xx
+  description: YY
+
+resource_1:
+  title: BROAD Single Cell Portal
+  description: BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
+  link: https://singlecell.broadinstitute.org/single_cell/covid19
