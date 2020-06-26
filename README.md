@@ -17,7 +17,7 @@ Please feel free to contribute to this repository (see [contribution guide](http
 |8 | Blood single cell immune profiling reveals the interferon-MAPK pathway mediated adaptive immune response for COVID-19 |   |   |   | | | **Data not public yet** | [Huang et. al.](https://www.medrxiv.org/content/10.1101/2020.03.15.20033472v1)|
 |9 | Single-cell RNA-seq and V(D)J profiling of immune cells in COVID-19 patients |   |   |   | | | **Data not public yet** | [Fan et. al.](https://www.medrxiv.org/content/10.1101/2020.05.24.20101238v1)|
 |10 | Gene expression profiling of SARS-CoV-1/2 infected human cell lines at bulk and single-cell level| [GSE148729](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148729)  | [SRP256479](https://www.ncbi.nlm.nih.gov/sra?term=SRP256479) | 154  | 56| bulk and single-cell level| Different human cell lines were infected with SARS-CoV-1 and SARS-CoV-2 and harvested at different time points.| [Wyler et. al.](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE148729)
-|11 | In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age| [GSE152075](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152075)  | []() | 484  | 430| bulk | RNA-sequencing profiles of nasopharyngeal swabs.| [Lieberman  et. al.](https://www.biorxiv.org/content/10.1101/2020.06.22.165225v1)
+|11 | In vivo antiviral host response to SARS-CoV-2 by viral load, sex, and age| [GSE152075](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152075)  | []() | 484  | 430| bulk | RNA-sequencing profiles of nasopharyngeal swabs;Single-end reads| [Lieberman  et. al.](https://www.biorxiv.org/content/10.1101/2020.06.22.165225v1)
 
 
 ## Other Useful Resources
