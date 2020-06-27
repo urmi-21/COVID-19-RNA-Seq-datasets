@@ -91,7 +91,7 @@ def parse_yml(filepath):
                     download.append(mdlink(otheracc,otherlink))
                 #download=';'.join([mdlink(geoacc,geolink),mdlink(sraacc,sralink),mdlink(otheracc,otherlink)])
                 #S.No. will be assigned later after sorting
-                result=['0',str(date),title,desc,';'.join(download),str(total),str(covid),typeseq]    
+                result=['0',str(date),title,desc,'\n'.join(download),str(total),str(covid),typeseq]    
                 datasets.append(result)
                 #return result
             except:
