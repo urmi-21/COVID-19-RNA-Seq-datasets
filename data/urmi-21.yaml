@@ -1,6 +1,6 @@
 #Resources
 resource_1:
   title: ImmGen COVID-19 expression data browser
-  description: NA
+  description: Visualization tools for SARS-CoV2 expression data.
   link: https://www.immgen.org/Databrowser19/COVID19Databrowser.html
 
