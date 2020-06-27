@@ -8,8 +8,6 @@ Please feel free to contribute to this repository (see [contribution guide](http
 
 ## COVID-19-RNA-Seq-datasets
 
-<div class="datatable-begin"></div>
-
 S.No.|Date|Title|Description|Download|#Samples|#COVID|Type
 ---|---    |---|---|---|---|---|---
 1|2020-06-26|[Neuroinvasive potential of SARS-CoV-2 revealedin a human brain organoid model](https://www.biorxiv.org/content/10.1101/2020.06.25.169946v1)|Brain organoids were infected with SARS-CoV-2 and sequenced with 10x single cell sequencing strategies.|[**Data not public**]()|None|None|single-cell
@@ -25,7 +23,7 @@ S.No.|Date|Title|Description|Download|#Samples|#COVID|Type
 11|2020-03-31|[Transcriptomic characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in COVID-19 patients](https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1747363)|Transcriptome sequencing of the RNAs isolated from the bronchoalveolar lavage fluid (BALF) and peripheral blood mononuclear cells (PBMC) specimens of COVID-19 patients|[CRA002390](https://bigd.big.ac.cn/gsa/browse/detail?pageSize=50&accession=CRA002390)|10|7|single-cell
 12|2020-03-17|[Blood single cell immune profiling reveals the interferon-MAPK pathway mediated adaptive immune response for COVID-19](https://www.medrxiv.org/content/10.1101/2020.03.15.20033472v1)|Blood cell immune response profiles using 5' mRNA, TCR and BCR V(D)J transcriptome analysis with single-cell resolution|[**Data not public**]()|NA|NA|single-cell
 
-<div class="datatable-end"></div>
+
 
 ## COVID-19-RNA-Seq Resources
 
