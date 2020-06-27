@@ -1,6 +1,6 @@
 <!--
   Title: COVID-19 RNA-Seq Datasets
-  Description: A curated list of COVID-19 transcriptomic data.
+  Description: A curated list of COVID-19 RNA-Seq/transcriptomic single-cell and bulk data.
   Author: urmi-21
 -->
 
