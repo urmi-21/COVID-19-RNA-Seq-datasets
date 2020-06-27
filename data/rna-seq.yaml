@@ -142,7 +142,7 @@ study_7:
 study_8: 
   title: Blood single cell immune profiling reveals the interferon-MAPK pathway mediated adaptive immune response for COVID-19
   link: https://www.medrxiv.org/content/10.1101/2020.03.15.20033472v1
-  description: blood cell immune response profiles using 5' mRNA, TCR and BCR V(D)J transcriptome analysis with single-cell resolution
+  description: Blood cell immune response profiles using 5' mRNA, TCR and BCR V(D)J transcriptome analysis with single-cell resolution
   date: 2020-03-17
   type: single-cell
   geo:
