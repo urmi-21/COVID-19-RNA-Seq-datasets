@@ -27,8 +27,7 @@ S.No.|Date|Title|Description|Download|#Samples|#COVID|Type
 
 S.No.|Resource|Description
 ---|---|---
-1|[10x Genomics Critical Tools for Coronavirus (COVID-19) Research](https://pages.10xgenomics.com/3p-immunology-coronavirus-tools.html)|NA
-2|[10x Genomics publications and preprints that showcase the latest research on COVID-19](https://pages.10xgenomics.com/3p-immunology-coronavirus-additional-publications.html)|NA
-3|[BROAD Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/covid19)|BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
-4|[ImmGen COVID-19 expression data browser](https://www.immgen.org/Databrowser19/COVID19Databrowser.html)|NA
-5|[NCBI SARS-CoV-2 Resources](https://www.ncbi.nlm.nih.gov/sars-cov-2/)|NA
+1|[10x Genomics publications and preprints that showcase the latest research on COVID-19](https://pages.10xgenomics.com/3p-immunology-coronavirus-additional-publications.html)|10x Genomics publications and preprints that showcase the latest research on COVID-19
+2|[BROAD Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/covid19)|BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
+3|[ImmGen COVID-19 expression data browser](https://www.immgen.org/Databrowser19/COVID19Databrowser.html)|NA
+4|[NCBI SARS-CoV-2 Resources](https://www.ncbi.nlm.nih.gov/sars-cov-2/)|SARS-CoV-2 Sequence, Literature, Clinical Resources
