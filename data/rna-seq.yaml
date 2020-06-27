@@ -23,7 +23,7 @@ study_1:
   samples:
     total: 195
     covid: 24
-  
+
 study_2:
   title: A single-cell atlas of the peripheral immune response to severe COVID-19
   link: https://www.medrxiv.org/content/10.1101/2020.04.17.20069930v1
@@ -233,6 +233,9 @@ study_12:
     total: 
     covid: 
 
+
+
+###Resources########
 resource_1:
   title: BROAD Single Cell Portal
   description: BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
@@ -253,8 +256,5 @@ resource_4:
   description: NA
   link: https://www.ncbi.nlm.nih.gov/sars-cov-2/
 
-resource_5:
-  title: ImmGen COVID-19 expression data browser
-  description: NA
-  link: https://www.immgen.org/Databrowser19/COVID19Databrowser.html
+
 
