@@ -82,7 +82,14 @@ def parse_yml(filepath):
                 total=d['samples']['total']
                 covid=d['samples']['covid']
                 title=mdlink(title,link)
-                download='/'.join([mdlink(geoacc,geolink),mdlink(sraacc,sralink),mdlink(otheracc,otherlink)])
+                download=''
+                if geoacc:
+                    download+=mdlink(geoacc,geolink)
+                if sraacc:
+                    download+=';'+mdlink(sraacc,sralink)
+                if otheracc:
+                    download+=';'+mdlink(otheracc,otherlink)
+                #download=';'.join([mdlink(geoacc,geolink),mdlink(sraacc,sralink),mdlink(otheracc,otherlink)])
                 #S.No. will be assigned later after sorting
                 result=['0',str(date),title,desc,download,str(total),str(covid),typeseq]    
                 datasets.append(result)
