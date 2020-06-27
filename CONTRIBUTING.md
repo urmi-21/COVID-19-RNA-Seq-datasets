@@ -9,7 +9,7 @@ Please follow these guidelines:
 * Please ensure that the dataset you want to contribute is not already present in the README table.
 * **All the data is entered through yaml files.**
 1. Fork this repository to your GitHub account **OR** directly edit yaml files in the data directory on GitHub and send a pull request.
-2. Before making changes, make sure current branch is up to date with original:
+2. Clone your fork to local drive using `git clone`. Before making changes, make sure current branch is up to date with original:
 ```
 git checkout master
 git pull upstream master
