@@ -242,18 +242,13 @@ resource_1:
   link: https://singlecell.broadinstitute.org/single_cell/covid19
 
 resource_2:
-  title: 10x Genomics Critical Tools for Coronavirus (COVID-19) Research 
-  description: NA
-  link: https://pages.10xgenomics.com/3p-immunology-coronavirus-tools.html
-
-resource_3:
   title: 10x Genomics publications and preprints that showcase the latest research on COVID-19
-  description: NA
+  description: 10x Genomics publications and preprints that showcase the latest research on COVID-19
   link: https://pages.10xgenomics.com/3p-immunology-coronavirus-additional-publications.html
 
-resource_4:
+resource_3:
   title: NCBI SARS-CoV-2 Resources
-  description: NA
+  description: SARS-CoV-2 Sequence, Literature, Clinical Resources
   link: https://www.ncbi.nlm.nih.gov/sars-cov-2/
 
 
