@@ -237,3 +237,24 @@ resource_1:
   title: BROAD Single Cell Portal
   description: BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
   link: https://singlecell.broadinstitute.org/single_cell/covid19
+
+resource_2:
+  title: 10x Genomics Critical Tools for Coronavirus (COVID-19) Research 
+  description: NA
+  link: https://pages.10xgenomics.com/3p-immunology-coronavirus-tools.html
+
+resource_3:
+  title: 10x Genomics publications and preprints that showcase the latest research on COVID-19
+  description: NA
+  link: https://pages.10xgenomics.com/3p-immunology-coronavirus-additional-publications.html
+
+resource_4:
+  title: NCBI SARS-CoV-2 Resources
+  description: NA
+  link: https://www.ncbi.nlm.nih.gov/sars-cov-2/
+
+resource_5:
+  title: ImmGen COVID-19 expression data browser
+  description: NA
+  link: https://www.immgen.org/Databrowser19/COVID19Databrowser.html
+
