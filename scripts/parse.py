@@ -84,11 +84,11 @@ def parse_yml(filepath):
                 title=mdlink(title,link)
                 download=[]
                 if geoacc:
-                    download.append[mdlink(geoacc,geolink)]
+                    download.append(mdlink(geoacc,geolink))
                 if sraacc:
-                    download.append[mdlink(sraacc,sralink)]
+                    download.append(mdlink(sraacc,sralink))
                 if otheracc:
-                    download.append[mdlink(otheracc,otherlink)]
+                    download.append(mdlink(otheracc,otherlink))
                 #download=';'.join([mdlink(geoacc,geolink),mdlink(sraacc,sralink),mdlink(otheracc,otherlink)])
                 #S.No. will be assigned later after sorting
                 result=['0',str(date),title,desc,';'.join(download),str(total),str(covid),typeseq]    
