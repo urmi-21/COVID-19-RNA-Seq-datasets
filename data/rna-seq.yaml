@@ -8,7 +8,7 @@
 study_1: 
   title: Imbalanced Host Response to SARS-CoV-2 Drives Development of COVID-19
   link: https://www.sciencedirect.com/science/article/pii/S009286742030489X
-  description: host response to SARS-CoV-2 and other human respiratory viruses in cell lines, primary cell cultures, ferrets, and COVID-19 patients
+  description: Host response to SARS-CoV-2 and other human respiratory viruses in cell lines, primary cell cultures, ferrets, and COVID-19 patients
   date: 2020-05-28
   type: bulk
   geo:
@@ -66,7 +66,7 @@ study_3:
 study_4: 
   title: Single-cell longitudinal analysis of SARS-CoV-2 infection in human bronchial epithelial cells
   link: https://www.biorxiv.org/content/10.1101/2020.05.06.081695v1
-  description: experimentally infected human bronchial epithelial cells (HBECs) in air-liquid interface cultures over a time-course.
+  description: Experimentally infected human bronchial epithelial cells (HBECs) in air-liquid interface cultures over a time-course.
   date: 2020-05-07
   type: single-cell
   geo:
@@ -85,7 +85,7 @@ study_4:
 study_5: 
   title: Transcriptomic characteristics of bronchoalveolar lavage fluid and peripheral blood mononuclear cells in COVID-19 patients
   link: https://www.tandfonline.com/doi/full/10.1080/22221751.2020.1747363
-  description: transcriptome sequencing of the RNAs isolated from the bronchoalveolar lavage fluid (BALF) and peripheral blood mononuclear cells (PBMC) specimens of COVID-19 patients
+  description: Transcriptome sequencing of the RNAs isolated from the bronchoalveolar lavage fluid (BALF) and peripheral blood mononuclear cells (PBMC) specimens of COVID-19 patients
   date: 2020-03-31
   type: single-cell
   geo:
