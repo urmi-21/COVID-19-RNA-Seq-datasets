@@ -183,5 +183,3 @@ f=open(target,'w')
 f.write('\n\n'.join([content+sep,'## COVID-19-RNA-Seq-datasets',data_table,'\n\n## COVID-19-RNA-Seq Resources',resources_table]))
 print('Done!')
 
-
-
