@@ -29,5 +29,5 @@ S.No.|Resource|Description
 ---|---|---
 1|[10x Genomics publications and preprints that showcase the latest research on COVID-19](https://pages.10xgenomics.com/3p-immunology-coronavirus-additional-publications.html)|10x Genomics publications and preprints that showcase the latest research on COVID-19
 2|[BROAD Single Cell Portal](https://singlecell.broadinstitute.org/single_cell/covid19)|BROAD Single Cell Portal contains studies which have been identified by the study owners as relevant to COVID-19
-3|[ImmGen COVID-19 expression data browser](https://www.immgen.org/Databrowser19/COVID19Databrowser.html)|NA
+3|[ImmGen COVID-19 expression data browser](https://www.immgen.org/Databrowser19/COVID19Databrowser.html)|Visualization tools for SARS-CoV2 expression data.
 4|[NCBI SARS-CoV-2 Resources](https://www.ncbi.nlm.nih.gov/sars-cov-2/)|SARS-CoV-2 Sequence, Literature, Clinical Resources
