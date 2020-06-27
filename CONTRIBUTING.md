@@ -10,12 +10,17 @@ Please follow these guidelines:
 * **All the data is entered through yaml files.**
 1. Fork this repository to your GitHub account.
 2. Before making changes, make sure current branch is up to date with original:
-	`git checkout master`
-	`git pull upstream master`
+```
+git checkout master
+git pull upstream master
+```	
+
 3. Create a new yaml file under the `data` directory, name it after your user id. You may also choose to edit an existing yaml file.
 4. Use the yaml format template to enter RNA-Seq dataset or resource information. For help, take a look at existing yaml files.
 5. Push the changes to your repo and send a pull request through GitHub:
-	`git push` 
+```
+git push
+```
 6. Changes will be automatically reflected in `README.md` upon merging the pull request.
 
 NOTE: Please make sure all links to data are correct and working
@@ -24,5 +29,7 @@ NOTE: Please make sure all links to data are correct and working
 
 ## Cloning this repository
 To clone this repository please use the following command:
-`git clone https://github.com/urmi-21/COVID-19-RNA-Seq-datasets.git`
+```
+git clone https://github.com/urmi-21/COVID-19-RNA-Seq-datasets.git
+```
 
