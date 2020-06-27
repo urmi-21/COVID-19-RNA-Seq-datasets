@@ -4,7 +4,7 @@ Please feel free to contribute to this repository (see [contribution guide](http
 
 **NOTE: Please do NOT directly edit below this line. Please see [contribution guide](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/blob/master/CONTRIBUTING.md)**
 
-<sep>
+<sep></sep>
 
 ## COVID-19-RNA-Seq-datasets
 
