@@ -170,7 +170,7 @@ for l in resources:
 
 data_table='\n'.join(datasets_md)
 resources_table='\n'.join(resources_md)
-target='README2.md'
+target='README.md'
 sep='## ##'
 #get content before tables e.g. introduction section
 with open(target,'r') as f:

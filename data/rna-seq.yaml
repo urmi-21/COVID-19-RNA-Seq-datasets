@@ -69,7 +69,7 @@ study_4:
   date: 2020-05-07
   type: single-cell
   geo:
-    accession: "**Data not public yet**"
+    accession: "**Data not public**"
     link:
   sra:
     accession:
