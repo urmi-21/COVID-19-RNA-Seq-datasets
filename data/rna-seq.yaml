@@ -234,6 +234,24 @@ study_12:
     total: 
     covid: 
 
+study_13: 
+  title: Early temporal dynamics of cellular responses to SARS-CoV-2
+  link: https://www.biorxiv.org/content/10.1101/2020.06.18.158154v1
+  description: Performed a time series RNA-seq and selective immunoblot analysis of SARS-CoV-2 infected lung (Calu-3) cells to characterize early virus-host processes.
+  date: 2020-06-18
+  type: bulk
+  geo:
+    accession: "**Data is private GSE151513**"
+    link: 
+  sra:
+    accession: "**Data not public**"
+    link: 
+  other:
+    accession:
+    link:
+  samples:
+    total: 
+    covid: 
 
 
 ###Resources########
