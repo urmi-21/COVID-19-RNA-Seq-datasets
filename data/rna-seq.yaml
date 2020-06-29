@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_14: 
+  title: Suppressive myeloid cells are a hallmark of severe COVID-19
+  link: https://www.medrxiv.org/content/10.1101/2020.06.03.20119818v1
+  description: Combined two single-cell RNA-sequencing technologies and single-cell proteomics in whole blood and peripheral blood mononuclear cells (PBMC)
+  date: 2020-06-05
+  type: single-cell
+  geo:
+    accession: 
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: EGAS00001004450
+    link: https://www.ebi.ac.uk/ega/search/site/EGAS00001004450
+  samples:
+    total: 100
+    covid: 54
+    
 study_1: 
   title: Imbalanced Host Response to SARS-CoV-2 Drives Development of COVID-19
   link: https://www.sciencedirect.com/science/article/pii/S009286742030489X
