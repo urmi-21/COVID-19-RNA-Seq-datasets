@@ -242,7 +242,7 @@ study_13:
   type: bulk
   geo:
     accession: "**Data is private GSE151513**"
-    link: 
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151513
   sra:
     accession: "**Data not public**"
     link: 
