@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_15: 
+  title: Generation of human bronchial organoids for SARS-CoV-2 research
+  link: https://www.biorxiv.org/content/10.1101/2020.05.25.115600v2
+  description: Human bronchial organoids were infected with SARS-CoV-2 in the presence of absence of camostat.
+  date: 2020-05-26
+  type: bulk
+  geo:
+    accession: GSE150819
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150819
+  sra:
+    accession: SRP262285
+    link: https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRP262285
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 18
+    covid: 6
+    
 study_14: 
   title: Suppressive myeloid cells are a hallmark of severe COVID-19
   link: https://www.medrxiv.org/content/10.1101/2020.06.03.20119818v1
