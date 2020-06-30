@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_16: 
+  title: Disruption  of  the  CCL5/RANTES-CCR5  Pathway  Restores  Immune Homeostasis and Reduces Plasma Viral Load in Critical COVID-19
+  link: https://www.medrxiv.org/content/10.1101/2020.05.02.20084673v1
+  description: Single-cell  RNA-sequencing  revealed  declines  in transcriptomic myeloid cell clusters expressing IL-6 and interferon-related genes.
+  date: 2020-05-26
+  type: single-cell
+  geo:
+    accession: **Data Not public**
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 
+    covid: 
+    
 study_15: 
   title: Generation of human bronchial organoids for SARS-CoV-2 research
   link: https://www.biorxiv.org/content/10.1101/2020.05.25.115600v2
