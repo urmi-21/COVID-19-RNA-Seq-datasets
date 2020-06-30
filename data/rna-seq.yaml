@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_18: 
+  title: Heightened Innate Immune Responsesin the Respiratory Tract of COVID-19 Patients
+  link: https://doi.org/10.1016/j.chom.2020.04.017
+  description:  Metatranscriptomic sequencing to profile immune signatures in the bronchoalveolar lavage fluidof eight COVID-19 cases.
+  date: 2020-06-10
+  type: single-cell
+  geo:
+    accession: "**Data Not public**"
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: PRJCA002273
+    link: https://bigd.big.ac.cn/gsa-human/browse/HRA000143
+  samples:
+    total: 
+    covid: 
+
 study_17: 
   title: Identification of Drugs Blocking SARS-CoV-2 Infection using Human Pluripotent Stem Cell-derived Colonic Organoids
   link: https://www.biorxiv.org/content/10.1101/2020.05.02.073320v1
