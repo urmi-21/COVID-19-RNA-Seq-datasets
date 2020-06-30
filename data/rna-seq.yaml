@@ -5,8 +5,6 @@
 #
 #Please increment the suffix by one in the key
 
-
-    
 study_17: 
   title: Identification of Drugs Blocking SARS-CoV-2 Infection using Human Pluripotent Stem Cell-derived Colonic Organoids
   link: https://www.biorxiv.org/content/10.1101/2020.05.02.073320v1
@@ -14,7 +12,7 @@ study_17:
   date: 2020-05-02
   type: single-cell
   geo:
-    accession: **Data Not public GSE147975**
+    accession: "**Data Not public GSE147975**"
     link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147975
   sra:
     accession: 
@@ -33,7 +31,7 @@ study_16:
   date: 2020-05-05
   type: single-cell
   geo:
-    accession: **Data Not public**
+    accession: "**Data Not public**"
     link: 
   sra:
     accession: 
