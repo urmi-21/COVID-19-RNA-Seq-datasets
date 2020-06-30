@@ -5,11 +5,30 @@
 #
 #Please increment the suffix by one in the key
 
+study_17: 
+  title: Identification of Drugs Blocking SARS-CoV-2 Infection using Human Pluripotent Stem Cell-derived Colonic Organoids
+  link: https://www.biorxiv.org/content/10.1101/2020.05.02.073320v1
+  description: Single cell RNA-seq and immunostaining showed that the putative viral entry receptor ACE2 is expressed in multiple hESC-derived colonic cell types, but highly enriched in enterocytes.
+  date: 2020-05-02
+  type: single-cell
+  geo:
+    accession: **Data Not public GSE147975**
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147975
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 
+    covid: 
+    
 study_16: 
   title: Disruption  of  the  CCL5/RANTES-CCR5  Pathway  Restores  Immune Homeostasis and Reduces Plasma Viral Load in Critical COVID-19
   link: https://www.medrxiv.org/content/10.1101/2020.05.02.20084673v1
   description: Single-cell  RNA-sequencing  revealed  declines  in transcriptomic myeloid cell clusters expressing IL-6 and interferon-related genes.
-  date: 2020-05-26
+  date: 2020-05-05
   type: single-cell
   geo:
     accession: **Data Not public**
