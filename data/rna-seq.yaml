@@ -258,7 +258,7 @@ study_9:
   link: https://www.medrxiv.org/content/10.1101/2020.05.24.20101238v1
   description: transcriptional profiles and changes in CD3+ and CD19+ lymphocytes by comprehensive single-cell transcriptome and V(D)J recombination analyses
   date: 2020-05-27
-  type: NA
+  type: single-cell
   geo:
     accession: "**Data not public**"
     link:
