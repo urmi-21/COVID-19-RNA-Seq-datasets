@@ -12,14 +12,14 @@ study_19:
   date: 2020-06-26
   type: single-cell
   geo:
-    accession: 
+    accession: "**Stalled**"
     link: 
   sra:
     accession: 
     link: 
   other:
-    accession: 
-    link: 
+    accession: EGAS00001004481
+    link: https://ega-archive.org/studies/EGAS00001004481
   samples:
     total: 
     covid: 
