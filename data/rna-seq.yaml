@@ -8,7 +8,7 @@
 study_19: 
   title: COVID-19 severity correlates with airway epithelium–immune cell interactions identified by single-cell analysis
   link: https://www.nature.com/articles/s41587-020-0602-4
-  description: Single-cell RNA sequencing on nasopharyngeal and bronchial samples from 19 clinically well-characterized patients with moderate or critical disease and from five healthy controls.
+  description: Single-cell RNA sequencing on nasopharyngeal and bronchial samples from 19 patients and five controls.
   date: 2020-06-26
   type: single-cell
   geo:
@@ -18,8 +18,8 @@ study_19:
     accession: 
     link: 
   other:
-    accession: EGAS00001004481
-    link: https://ega-archive.org/studies/EGAS00001004481
+    accession: 
+    link: 
   samples:
     total: 
     covid: 
