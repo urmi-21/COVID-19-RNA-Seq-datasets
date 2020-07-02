@@ -6,7 +6,7 @@
 #Please increment the suffix by one in the key
 
 study_19: 
-  title: COVID-19 severity correlates with airway epithelium–immune cell interactions identified by single-cell analysis
+  title: COVID-19 severity correlates with airway epithelium–immune cell interactions identified by single-cell analysis 
   link: https://www.nature.com/articles/s41587-020-0602-4
   description: Single-cell RNA sequencing on nasopharyngeal and bronchial samples from 19 patients and five controls.
   date: 2020-06-26
