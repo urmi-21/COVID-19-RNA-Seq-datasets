@@ -12,7 +12,7 @@ study_19:
   date: 2020-06-26
   type: single-cell
   geo:
-    accession: "**not accessible**"
+    accession: 
     link: 
   sra:
     accession: 
