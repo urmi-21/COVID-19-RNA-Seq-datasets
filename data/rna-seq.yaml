@@ -12,13 +12,13 @@ study_19:
   date: 2020-06-26
   type: single-cell
   geo:
-    accession: 
+    accession: "**not accessible**"
     link: 
   sra:
     accession: 
     link: 
   other:
-    accession: "EGAS00001004481**not accessible**"
+    accession: EGAS00001004481
     link: https://ega-archive.org/studies/EGAS00001004481
   samples:
     total: 
