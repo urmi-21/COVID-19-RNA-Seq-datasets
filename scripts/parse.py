@@ -123,7 +123,7 @@ def mdlink(text,link):
         text=""
     if link==None:
         link=""
-    return '['+str(text)+']'+'('+str(link)+')'
+    return '['+text+']'+'('+link+')'
 
         
 
