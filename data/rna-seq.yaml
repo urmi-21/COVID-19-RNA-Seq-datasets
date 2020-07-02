@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_19: 
+  title: COVID-19 severity correlates with airway epithelium–immune cell interactions identified by single-cell analysis
+  link: https://www.nature.com/articles/s41587-020-0602-4
+  description:  Single-cell RNA sequencing on nasopharyngeal and bronchial samples from 19 clinically well-characterized patients with moderate or critical disease and from five healthy controls.
+  date: 2020-06-26
+  type: single-cell
+  geo:
+    accession: 
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: "EGAS00001004481**not accessible**"
+    link: https://ega-archive.org/studies/EGAS00001004481
+  samples:
+    total: 
+    covid: 
+    
 study_18: 
   title: Heightened Innate Immune Responsesin the Respiratory Tract of COVID-19 Patients
   link: https://doi.org/10.1016/j.chom.2020.04.017
