@@ -10,6 +10,7 @@ import yaml
 import glob
 import os
 import sys
+import traceback
 from operator import itemgetter
 
 
@@ -96,6 +97,7 @@ def parse_yml(filepath):
                 #return result
             except:
                 print('1 Error parsing:'+filepath+' key:'+key)
+                print(traceback.format_exc())
                 sys.exit(1)
             #datasets.append(value)
             
@@ -113,6 +115,7 @@ def parse_yml(filepath):
                 resources.append(result)
             except:
                 print('2 Error parsing:'+filepath+' key:'+key)
+                print(traceback.format_exc())
                 sys.exit(1)
 
 def mdlink(text,link):
