@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_20: 
+  title: Platelet Gene Expression and Function in COVID-19 Patients
+  link: https://ashpublications.org/blood/article/doi/10.1182/blood.2020007214/461106/Platelet-Gene-Expression-and-Function-in-COVID-19
+  description: Platelet gene expression and functional responses in patients infected with SARS-CoV-2.
+  date: 2020-06-23
+  type: bulk
+  geo:
+    accession:
+    link: 
+  sra:
+    accession: SRP262885
+    link: https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP262885&o=acc_s%3Aa
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 15
+    covid: 10
+    
 study_19: 
   title: COVID-19 severity correlates with airway epithelium-immune cell interactions identified by single-cell analysis
   link: https://www.nature.com/articles/s41587-020-0602-4
