@@ -8,6 +8,8 @@
 This is a repository for sharing information on available COVID-19 RNA-Seq datasets. I will update this weekly to add any newly released COVID-19 related RNA-Seq datasets.
 Please feel free to contribute to this repository (see [contribution guide](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/blob/master/CONTRIBUTING.md)). If you have suggestions, please notify me by opeining a new [issue](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/issues).
 
+**NOTE: If you are facing problems while downloading data with SRA Toolkit, please make sure you are using the latest version of [SRA Toolkit](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit)**
+
 **NOTE: Please do NOT directly edit below this line. Please see [contribution guide](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/blob/master/CONTRIBUTING.md)**
 
 <sep></sep>
