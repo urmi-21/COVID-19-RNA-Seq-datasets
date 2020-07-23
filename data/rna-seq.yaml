@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key
 
+study_21: 
+  title: Single cell RNA sequencing of blood antigen-presenting cells in severe Covid-19 reveals multi-process defects in antiviral immunity
+  link: https://www.biorxiv.org/content/10.1101/2020.07.20.212837v1
+  description: Blood antigen-presenting cells (APC) in 7 COVID-19 patients with moderate or severe pneumonia.
+  date: 2020-07-21
+  type: single cell
+  geo:
+    accession: **Data not public**
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 
+    covid: 
+
 study_20: 
   title: Platelet Gene Expression and Function in COVID-19 Patients
   link: https://ashpublications.org/blood/article/doi/10.1182/blood.2020007214/461106/Platelet-Gene-Expression-and-Function-in-COVID-19
