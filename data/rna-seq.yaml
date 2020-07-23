@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_25: 
+  title: Disease severity-specific neutrophil signatures in blood transcriptomes stratify COVID-19 patients
+  link: https://www.medrxiv.org/content/10.1101/2020.07.07.20148395v2
+  description:  Whole blood transcriptomes of 39 COVID-19 patients and 10 control donors.
+  date: 2020-07-08
+  type: bulk
+  geo:
+    accession: 
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: "**Stalled** EGAS00001004503"
+    link: https://ega-archive.org/studies/EGAS00001004503
+  samples:
+    total: 
+    covid:
+
 study_24: 
   title: Severely ill COVID-19 patients display augmented functional properties in SARS-CoV-2-reactive CD8+ T cells
   link: https://www.biorxiv.org/content/10.1101/2020.07.09.194027v1
