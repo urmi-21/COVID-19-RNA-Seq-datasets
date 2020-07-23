@@ -12,7 +12,7 @@ study_22:
   date: 2020-07-19
   type: bulk
   geo:
-    accession: **Data not public**
+    accession: "**Data not public**"
     link: 
   sra:
     accession: 
@@ -31,7 +31,7 @@ study_21:
   date: 2020-07-21
   type: single cell
   geo:
-    accession: **Data not public**
+    accession: "**Data not public**"
     link: 
   sra:
     accession: 
