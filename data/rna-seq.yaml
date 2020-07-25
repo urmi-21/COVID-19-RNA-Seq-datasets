@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_26: 
+  title: Single-cell landscape of immunological responses in COVID-19 patients
+  link: https://www.biorxiv.org/content/10.1101/2020.07.23.217703v1
+  description:  Single-cell RNA sequencing in peripheral blood samples of 5 healthy donors and 13 COVID-19 patients.
+  date: 2020-07-24
+  type: single-cell
+  geo:
+    accession: 
+    link: 
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: HRA000150 "**Not public**"
+    link: https://bigd.big.ac.cn/gsa-human/browse/HRA000150
+  samples:
+    total: 64
+    covid: 51
+    
 study_25: 
   title: Disease severity-specific neutrophil signatures in blood transcriptomes stratify COVID-19 patients
   link: https://www.medrxiv.org/content/10.1101/2020.07.07.20148395v2
@@ -86,7 +105,7 @@ study_21:
   link: https://www.biorxiv.org/content/10.1101/2020.07.20.212837v1
   description: Blood antigen-presenting cells (APC) in 7 COVID-19 patients with moderate or severe pneumonia.
   date: 2020-07-21
-  type: single cell
+  type: single-cell
   geo:
     accession: "**Data not public**"
     link: 
