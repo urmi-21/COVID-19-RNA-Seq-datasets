@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_29: 
+  title: Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans
+  link: https://science.sciencemag.org/content/369/6508/1210
+  description:  RNAseq analysis of PBMCs in a group of 17 COVID-19 subjects and 17 healthy controls.
+  date: 2020-09-04
+  type: bulk
+  geo:
+    accession: GSE152418
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152418
+  sra:
+    accession: SRP267176
+    link: https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=3&WebEnv=MCID_5f5d575544419776cb56d6aa&o=acc_s%3Aa
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 68
+    covid: 34
+
 study_28: 
   title: A novel isoform of ACE2 is expressed in human nasal and bronchial respiratory epithelia and is upregulated in response to RNA respiratory virus infection
   link: https://www.biorxiv.org/content/10.1101/2020.07.31.230870v1
