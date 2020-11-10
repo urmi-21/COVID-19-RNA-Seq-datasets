@@ -5,6 +5,26 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_30: 
+  title: Macrophage expression and prognostic significance of the long pentraxin PTX3 in COVID-19
+  link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP289541
+  description: Total RNA-Seq of Monocytes isolated from peripheral blood samples of 3 healthy 6 COVID-19 patients
+  date: 2020-10-28
+  type: bulk
+  geo:
+    accession: GSE160351
+    link: https://www.ncbi.nlm.nih.gov//geo/query/acc.cgi?acc=GSE160351
+  sra:
+    accession: SRP289541
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP289541
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 9
+    covid: 3
+
+
 study_29: 
   title: Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans
   link: https://science.sciencemag.org/content/369/6508/1210
