@@ -5,6 +5,26 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_32: 
+  title: Broad transcriptional dysregulation of brain and choroid plexus cell types with COVID-19
+  link: https://www.biorxiv.org/content/10.1101/2020.10.22.349415v1
+  description: 47,678 droplet-based single-nucleus transcriptomes from the frontal cortex and choroid plexus across 10 non-viral, 4 COVID-19, and an influenza patient.
+  date: 2020-10-22
+  type: single-cell
+  geo:
+    accession: GSE159812
+    link: https://www.ncbi.nlm.nih.gov//geo/query/acc.cgi?acc=GSE159812
+  sra:
+    accession: SRP288163
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP288163
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 20
+    covid: 4
+
+
 study_31: 
   title: SARS-CoV-2 infection of primary human lung epithelium for COVID-19 modeling and drug discovery
   link: https://www.biorxiv.org/content/10.1101/2020.06.29.174623v1
