@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_31: 
+  title: SARS-CoV-2 infection of primary human lung epithelium for COVID-19 modeling and drug discovery
+  link: https://www.biorxiv.org/content/10.1101/2020.06.29.174623v1
+  description: Bulk RNAseq of SARS-COV2 infected human lung organoid
+  date: 2020-10-29
+  type: bulk
+  geo:
+    accession: GSE160435
+    link: https://www.ncbi.nlm.nih.gov//geo/query/acc.cgi?acc=GSE160435
+  sra:
+    accession: SRP289766
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP289766
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 10
+    covid: 5
+
 study_30: 
   title: Macrophage expression and prognostic significance of the long pentraxin PTX3 in COVID-19
   link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP289541
