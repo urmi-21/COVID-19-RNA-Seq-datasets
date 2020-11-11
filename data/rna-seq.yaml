@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_33: 
+  title: Human Pluripotent Stem Cell-Derived Neural Cells and Brain Organoids Reveal SARS-CoV-2 Neurotropism Predominates in Choroid Plexus Epithelium
+  link: https://www.sciencedirect.com/science/article/pii/S193459092030463X
+  description: Bulk RNA-seq of choroid plexus organoids performed on mock, SARS-CoV-2 samples.
+  date: 2020-09-21
+  type: bulk
+  geo:
+    accession: GSE157852
+    link: https://www.ncbi.nlm.nih.gov//geo/query/acc.cgi?acc=GSE157852
+  sra:
+    accession: SRP282132
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP282132
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 9
+    covid: 6
+
 study_32: 
   title: Broad transcriptional dysregulation of brain and choroid plexus cell types with COVID-19
   link: https://www.biorxiv.org/content/10.1101/2020.10.22.349415v1
