@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_34: 
+  title: Single cell resolution of SARS-CoV-2 tropism, antiviral responses, and susceptibility to therapies in primary human airway epithelium
+  link: https://www.biorxiv.org/content/10.1101/2020.10.19.343954v1
+  description:  Single-cell RNAseq to understand elements of viral tropism and pathogenesis, antiviral immunity, and treatment response to remdesivir.
+  date: 2020-10-19
+  type: single-cell
+  geo:
+    accession: GSE157526
+    link: https://www.ncbi.nlm.nih.gov//geo/query/acc.cgi?acc=GSE157526
+  sra:
+    accession: SRP280154
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP282132
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 5
+    covid: 4
+
 study_33: 
   title: Human Pluripotent Stem Cell-Derived Neural Cells and Brain Organoids Reveal SARS-CoV-2 Neurotropism Predominates in Choroid Plexus Epithelium
   link: https://www.sciencedirect.com/science/article/pii/S193459092030463X
