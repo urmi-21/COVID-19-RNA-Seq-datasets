@@ -237,22 +237,22 @@ study_23:
 
 study_22: 
   title: Large-scale Multi-omic Analysis of COVID-19 Severity
-  link: https://www.medrxiv.org/content/10.1101/2020.07.17.20156513v1
+  link: https://www.cell.com/cell-systems/fulltext/S2405-4712(20)30371-9
   description: RNA-Seq and high-resolution mass spectrometry on 128 blood samples from COVID-19 positive and negative patients with diverse disease severities.
-  date: 2020-07-19
+  date: 2020-10-07
   type: bulk
   geo:
-    accession: "**Data not public**"
-    link: 
+    accession: GSE157103
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157103
   sra:
-    accession: 
-    link: 
+    accession: SRP279280
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP279280
   other:
     accession: 
     link: 
   samples:
-    total: 
-    covid:
+    total: 252
+    covid: 200
 
 study_21: 
   title: Single cell RNA sequencing of blood antigen-presenting cells in severe Covid-19 reveals multi-process defects in antiviral immunity
