@@ -5,6 +5,26 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_37: 
+  title: Whole transcriptome sequencing of peripheral blood mononuclear cells from patients with COVID-19
+  link: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA662985
+  description: Longitudinal RNA-seq on PBMC samples of 18 COVID-19 patients 
+  date: 2020-11-23
+  type: bulk
+  geo:
+    accession: GSE157859
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157859
+  sra:
+    accession: SRP282150
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP282150
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 85
+    covid: 85
+
+
 study_36: 
   title: SARS-CoV-2 infected cells present HLA-I peptides from canonical and out-of-frame ORFs
   link: https://www.biorxiv.org/content/10.1101/2020.10.02.324145v2
