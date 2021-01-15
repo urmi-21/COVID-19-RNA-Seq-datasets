@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_38: 
+  title: Temporal and spatial heterogeneity of host response to SARS-CoV-2 pulmonary infection
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7725958/
+  description: RNA-Seq analysis on autopsy samples from patients deceased due to SARS-Cov2 infection
+  date: 2020-12-09
+  type: bulk
+  geo:
+    accession: GSE150316
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE150316
+  sra:
+    accession: SRP261138
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP261138
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 88
+    covid: 37
+    
 study_37: 
   title: Whole transcriptome sequencing of peripheral blood mononuclear cells from patients with COVID-19
   link: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA662985
