@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_40: 
+  title: Neurological Manifestations of COVID-19 Feature T Cell Exhaustion and Dedifferentiated Monocytes in Cerebrospinal Fluid
+  link: https://doi.org/10.1016/j.immuni.2020.12.011
+  description: scRNA-Seq from the (CSF) of Neuro-COVID patients, patients neurological diseases with viral encephalitis
+  date: 2021-01-12
+  type: single-cell
+  geo:
+    accession: GSE163005
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE163005
+  sra:
+    accession: SRP297575
+    link: https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP297575
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 31
+    covid: 8
+    
 study_39: 
   title: SARS-CoV-2 infects and replicates in cells of the human endocrine and exocrine pancreas
   link: https://www.nature.com/articles/s42255-021-00347-1
