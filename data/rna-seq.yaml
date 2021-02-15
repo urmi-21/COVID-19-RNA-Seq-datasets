@@ -5,6 +5,25 @@
 #
 #Please increment the suffix by one in the key e.g. study_1, study_2 etc
 
+study_41: 
+  title: COVID-19 immune features revealed by a large-scale single cell transcriptome atlas
+  link: https://doi.org/10.1016/j.cell.2021.01.053
+  description: scRNA-Seq of various tissue types obtained from COVID-19 patients 
+  date: 2021-02-15
+  type: single-cell
+  geo:
+    accession: "**GSE158055 only processed data**"
+    link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158055
+  sra:
+    accession: 
+    link: 
+  other:
+    accession: 
+    link: 
+  samples:
+    total: 284
+    covid: 196
+    
 study_40: 
   title: Neurological Manifestations of COVID-19 Feature T Cell Exhaustion and Dedifferentiated Monocytes in Cerebrospinal Fluid
   link: https://doi.org/10.1016/j.immuni.2020.12.011
