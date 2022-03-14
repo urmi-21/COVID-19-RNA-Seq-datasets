@@ -4,8 +4,9 @@
   Author: urmi-21
 -->
 
+**NOTE:** I am no longer actively adding new studies but new contributions are still welcome.
 # Introduction
-This is a repository for sharing information on available COVID-19 RNA-Seq datasets. I am updating this to add any newly released COVID-19 related RNA-Seq datasets.
+This is a repository for sharing information on available COVID-19 RNA-Seq datasets.
 Please feel free to contribute to this repository (see [contribution guide](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/blob/master/CONTRIBUTING.md)). If you have suggestions, please notify me by opeining a new [issue](https://github.com/urmi-21/COVID-19-RNA-Seq-datasets/issues).
 
 **NOTE 1: If you are facing problems while downloading data with SRA Toolkit, please try using the latest version of [SRA Toolkit](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit)**. If you have aspera you can also use [ena-fast-download](https://github.com/wwood/ena-fast-download) to download fastq files from SRA.
