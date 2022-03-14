@@ -22,8 +22,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      with:
+        python-version: '3.7.4'
     # Runs a single command using the runners shell
-    - name: Run a one-line script
+    - name: Run parsing script
       run: python scripts/parse.py
         
     - uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
