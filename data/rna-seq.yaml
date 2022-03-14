@@ -777,10 +777,10 @@ study_13:
   date: 2020-06-18
   type: bulk
   geo:
-    accession: "**Data is private GSE151513**"
+    accession: GSE151513
     link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151513
   sra:
-    accession: "**Data not public**"
+    accession: 
     link: 
   other:
     accession:
