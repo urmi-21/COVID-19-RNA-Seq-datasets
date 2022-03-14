@@ -65,13 +65,13 @@ def parse_yml(filepath):
             #print('study:',key)
             #validate keys
             try:
-                title=d['title'].encode('utf8')
+                title=d['title']
                 if title in added_dataset:
                     print("SKIPPING: {} already exists".format(title))
                     continue   
                 added_dataset.append(title)
-                link=d['link'].encode('utf8')
-                desc=d['description'].encode('utf8')
+                link=d['link']
+                desc=d['description']
                 date=d['date']
                 typeseq=d['type']
                 geoacc=d['geo']['accession']
@@ -104,12 +104,12 @@ def parse_yml(filepath):
         else:
             #this is resource
             try:
-                title=d['title'].encode('utf8')
+                title=d['title']
                 if title in added_resources:
                     print("SKIPPING: {} already exists".format(title))
                     continue   
-                link=d['link'].encode('utf8')
-                desc=d['description'].encode('utf8')
+                link=d['link']
+                desc=d['description']
                 result=['0',mdlink(title,link),desc]
                 added_resources.append(title)
                 resources.append(result)
@@ -123,7 +123,7 @@ def mdlink(text,link):
         text=""
     if link==None:
         link=""
-    return '['+text+']'+'('+link+')'
+    return '['+str(text)+']'+'('+str(link)+')'
 
         
 
